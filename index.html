@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Datos de la sede</legend>
+        <form id="formularioSede">
+            <input type="text" name="nombreSede" placeholder="Nombre:"> <br> <br>
+            <input type="submit" value="Guardar">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Datos de los campers</legend>
+        <form id="formularioCamper">
+            Sede: <select name="sede">
+                <option disabled>Seleccione una opcion</option>
+            </select> <br> <br>
+            <input type="text" name="Nombre" placeholder="Nombre:"> <br> <br>
+            <input type="tel" name="Telefono" placeholder="Telefono:"> <br> <br>
+            <input type="email" name="Correo" placeholder="Correo:"> <br> <br>
+            <input type="text" name="Team" placeholder="Team:"> <br> <br>
+            <input type="text" name="Horario" placeholder="Horario:"> <br> <br>
+            <input type="text" name="HorarioIngles" placeholder="Horario Ingles:"> <br> <br>
+            <input type="text" name="HorarioSer" placeholder="Horario Ser:"> <br> <br>
+            <input type="submit" value="Guardar">
+        </form>
+        <form id="formularioNivel">
+            <h2>Nivel</h2>
+            Nivel: <br> <select name="nivel" id="">
+                <option disabled>Seleccione una opcion</option>
+                <option>Noob</option>
+                <option>Mid</option>
+                <option>Pro</option>
+            </select> <br> <br>
+            <input type="text" name="preRequisito" placeholder="Pre-requisito:"> <br> <br>
+            <input type="text" name="tecnologia" placeholder="A que tecnologia pertenece:"> <br> <br>
+            Electiva u obligatoria: <br> <select name="electiva">
+                <option disabled>Seleccione una opcion</option>
+                <option>Electiva</option>
+                <option>Obligatoria</option>
+            </select> 
+        </form>
+        <form id="formularioRoad">
+            <h2>RoadMap</h2>
+            N° Creditos: <br> <select name="nivel" id="">
+                <option disabled>Seleccione una opcion</option> 
+                <option>5</option>
+                <option>10</option>
+                <option>15</option>
+            </select> <br> <br>
+            Año: <br> <select name="nivel" id="">
+                <option disabled>Seleccione una opcion</option>
+                <option>2023</option>
+            </select> <br> <br>
+            Asignaturas: <br> <select name="nivel" id="">
+                <option disabled>Seleccione una opcion</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+            </select>
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Datos de los trainers</legend>
+        <form id="formularioTrainer">
+            <input type="text" name="Nombre" placeholder="Nombre:"> <br> <br>
+            <input type="tel" name="Telefono" placeholder="Telefono:"> <br> <br>
+            <input type="email" name="Correo" placeholder="Correo:"> <br> <br>
+            <input type="text" name="Teams" placeholder="Teams:"> 
+        </form>
+    </fieldset>
+</body>
+</html>
